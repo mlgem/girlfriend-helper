@@ -1,10 +1,14 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
+
+const repo = 'girlfriend-helper'
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
   output: 'export',
-  basePath: "/girlfriend-helper",
-  assetPrefix: "/girlfriend-helper/",
-};
+  images: {
+    unoptimized: true,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
