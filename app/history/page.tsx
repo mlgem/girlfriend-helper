@@ -32,7 +32,7 @@ const HistoryPage = () => {
 
   return (
     <>
-      <audio ref={audioRef} src="/married.wav" loop />
+      <audio ref={audioRef} src="./married.wav" loop />
       {scene == 1 && (
         <div className="flex justify-center items-center min-h-screen">
           <div className="card bg-orange-100 w-96 shadow-sm flex items-center justify-center">
@@ -40,7 +40,7 @@ const HistoryPage = () => {
               className={`card-body items-center ${chewyFont.className} text-2xl`}
             >
               HISTORY OF BABY
-              <img src="/bby.jpg" />
+              <img src="./bby.jpg" />
             </div>
           </div>
         </div>
