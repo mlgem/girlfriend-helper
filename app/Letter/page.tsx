@@ -38,15 +38,27 @@ const Letter = () => (
           </span>
           <br />
           <br />
-          anyway enough of that, its ur 27th birthday baby!! we spent most of
-          our 20's together na! damnnnn buti d ka pa sawa sakin! hahahah. I'm
-          proud of you always lab, with what you've accomplished na. i know you
-          pretty rough on yourself and think that you still haven't done much
-          but das not true! you've come a long way na and just know i'll always
-          be here for you every step of the way, even if im a little klutzy
-          sometimes hehe. I love you very much baby, slowly but surely, we're
-          moving towards our goal and finally be together for good na. so let's
-          just hang in there oki?
+          {
+            "anyway enough of that, its ur 27th birthday baby!! we spent most of"
+          }
+          {
+            " our 20's together na! damnnnn buti d ka pa sawa sakin! hahahah. I'm"
+          }
+          {" proud of you always lab, with what you've accomplished na. i know"}
+          {
+            " you pretty rough on yourself and think that you still haven't done"
+          }
+          {
+            " much but das not true! you've come a long way na and just know i'll"
+          }
+          {" always be here for you every step of the way, even if im a little"}
+          {
+            " klutzy sometimes hehe. I love you very much baby, slowly but surely,"
+          }
+          {
+            " we're moving towards our goal and finally be together for good na."
+          }
+          {" so let's just hang in there oki? "}
           <br />
           <br />
           from the most pogi and talented bf!
