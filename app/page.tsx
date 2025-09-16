@@ -55,7 +55,10 @@ export default function Home() {
                 <p className="py-6">{bodyText}</p>
                 {showButton === 1 && (
                   <div className="flex">
-                    <button className="btn btn-primary" onClick={buttonClick}>
+                    <button
+                      className="btn btn-primary cursor-default hover:bg-primary hover:border-primary"
+                      onClick={buttonClick}
+                    >
                       {buttonText}
                     </button>
                   </div>
@@ -63,7 +66,7 @@ export default function Home() {
                 {showButton === 2 && (
                   <div className="flex justify-center">
                     <button
-                      className="btn btn-primary align"
+                      className="btn btn-primary cursor-default hover:bg-primary hover:border-primary"
                       onClick={secondButtonClick}
                     >
                       {buttonText}
@@ -73,7 +76,7 @@ export default function Home() {
                 {showButton === 3 && (
                   <div className="flex justify-end">
                     <button
-                      className="btn btn-primary"
+                      className="btn btn-primary cursor-default hover:bg-primary hover:border-primary"
                       onClick={thirdButtonClick}
                     >
                       {buttonText}
@@ -90,18 +93,6 @@ export default function Home() {
                     </button>
                   </div>
                 )}
-              </div>
-            </div>
-          </div>
-          <div className="w-7xl child">
-            <div className="flex justify-center">
-              <div>
-                <figure className="hover-gallery max-w-60">
-                  <img src="https://media1.tenor.com/m/ziky0pQTVYUAAAAC/little-cute.gif" />
-                  <img src="https://media1.tenor.com/m/RjINDshJG48AAAAd/cat-smile.gif" />
-                  <img src="https://media1.tenor.com/m/MQDyV2T6m3MAAAAC/crying-cat.gif" />
-                  <img src="https://media1.tenor.com/m/3Cs_AKNDxRwAAAAC/gato-lengua.gif" />
-                </figure>
               </div>
             </div>
           </div>

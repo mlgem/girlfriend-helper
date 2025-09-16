@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} flex flex-col items-center justify-center h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} flex flex-col justify-center h-screen`}
       >
         {children}
       </body>
