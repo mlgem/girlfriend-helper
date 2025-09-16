@@ -11,19 +11,10 @@ const Letter = () => (
             data-tip="hover ur mouse here hehe"
           >
             <figure className="hover-gallery max-w-60">
-              <img className="max-w-50 max-h-50" src="/lablab.jpg" />
-              <img
-                className="max-w-50 max-h-50"
-                src="https://media.discordapp.net/attachments/987396533748138094/987397147555168256/E8A1BCB8-A474-45AA-8FD0-121745FB5393.jpg?ex=68c8eb00&is=68c79980&hm=0380f360a57849e040feeb3ee410c710c23e2a69905aa3b6edc6848d07841878&=&format=webp&width=1376&height=913"
-              />
-              <img
-                className="max-w-50 max-h-50"
-                src="https://media.discordapp.net/attachments/987396533748138094/987397040386478102/2748BD4B-BC6B-46FB-A6B3-274A400D4628.jpg?ex=68c8eae7&is=68c79967&hm=4282b2bd0d13590410c7a3886c1846e0a6ebbd7a709df0349ec2c8afa9b6b636&=&format=webp&width=1376&height=912"
-              />
-              <img
-                className="max-w-50 max-h-50"
-                src="https://media.discordapp.net/attachments/987396533748138094/987397059269242930/1A6B097F-C15E-4286-A2EB-5968DAA639D7.jpg?ex=68c8eaeb&is=68c7996b&hm=bd22fcbb477110fe5d24c0b1a4ad69a12aebc835a6b5d1caec1e533c9240eb43&=&format=webp&width=527&height=350"
-              />
+              <img className="max-w-50 max-h-50" src="./page0.jpg" />
+              <img className="max-w-50 max-h-50" src="./page1.jpg" />
+              <img className="max-w-50 max-h-50" src="./page2.jpg" />
+              <img className="max-w-50 max-h-50" src="./page3.jpg" />
             </figure>
           </div>
         </div>

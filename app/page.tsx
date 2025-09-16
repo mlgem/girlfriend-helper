@@ -34,7 +34,7 @@ export default function Home() {
   const thirdButtonClick = () => {
     setShowButton(4);
     setImageUrl(
-      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25xa2RvendmenNpdjdyNmZ2ZnJidW5jamt2a2x6bjM2anI0bGM0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2zUn8hAwJwG4abiS0p/giphy.gif"
+      "https://media.tenor.com/fm4u-L3RJjMAAAAM/cat-thousand-yard-stare-thousand-yard-stare.gif"
     );
     setHeaderText("hehe are yuo mad now?");
     setBodyText("😐😐😐😐 oke last na tlga i lab yuu");
